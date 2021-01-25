@@ -1,0 +1,91 @@
+.bikeSize{
+    height: 340px;
+    width: 340px;
+}
+
+#arrowTop{
+    position: fixed;
+    bottom: 128px;
+    right: 10px;
+    color: rgba(255, 166, 0, 0.384);
+    cursor: pointer;
+    display: none;
+}
+.arrowTop:hover{
+    color: rgb(255, 166, 0);
+    transition: 0.5s;
+}
+    
+html {
+    scroll-behavior: smooth;
+}
+
+/* nav */
+.logoBike{
+    height: 10%;
+    width: auto;
+}
+#Navbar {
+    background-color: rgba(223, 155, 28, 0.596);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.shoppingCart{
+    color: black;
+    font-weight: bold;
+    border-radius: 0%;
+}
+
+/* card */
+.card {
+    background-color: transparent;
+}
+
+.card-header {
+    color: tomato;
+    font-size: x-large;
+}
+
+/* carousel */ 
+#carouselRow{
+    background-color: white;
+}
+.carouselText {
+    color: white;
+    -webkit-text-stroke: 1px black;
+}
+
+.carouselText, .carouselButton, .carouselControl {
+    display: none;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.37);
+}
+
+.carouselButton {
+    background-color: rgba(0, 0, 0, 0.616);
+    border-radius: 0px;
+}
+
+.carouselButton:hover {
+    background-color: rgba(0, 0, 0, 0.822);
+}
+
+.bikeCategory::before{
+    height: 100px;
+    content: "";
+    display: block;
+}
+.itemQuantity{
+    border: solid 1px orange;
+    border-radius: 2px;
+    width: 5%;
+    display: inline-block;
+    text-align: center;
+}
+.footerLinkList a:before{
+    content: "| ";
+}
+#firstLink:before{
+    content: none;
+}
